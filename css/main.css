@@ -1,0 +1,684 @@
+@font-face {
+	font-family: 'Conv_DMSerifDisplay-Regular';
+	src: url('../fonts/DMSerifDisplay-Regular.eot');
+	src: local('☺'), url('../fonts/DMSerifDisplay-Regular.woff') format('woff'), url('../fonts/DMSerifDisplay-Regular.ttf') format('truetype'), url('../fonts/DMSerifDisplay-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.header{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 175px;
+}
+
+.logo {
+    width: 175px;
+    height: 34px;
+}
+
+.nav{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 34px;
+    padding-bottom: 38px;   
+}
+
+.navbar {
+    display: flex;
+    width: 520px;
+    justify-content: space-between;
+}
+
+.navbar a{
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    color: #292F36;
+    
+}
+
+.navbar li{
+    padding-top: 5px;
+}
+
+
+.intro{
+    background-image: url('../img/header-bg.jpg');
+    width: 1440px;
+    height: 830px;
+    border-radius: 0px 0px 0px 290px;
+}
+
+.header-block{
+    width: 600px;
+    margin-left: 120px;
+    padding-top: 188px;
+}
+
+.header-block__title {
+    font-family: 'Conv_DMSerifDisplay-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 96px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    margin-bottom: 20px;
+}
+
+.header-block__text {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin-bottom: 35px;
+}
+
+.header-block__button {
+    display: flex;
+    width: 207px;
+    height: 71px;
+    background: #292F36;
+    border: 2px solid #292F36;
+    border-radius: 18px;
+}
+
+
+.header-block__button p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.72px;
+    color: #FFFFFF;
+    padding-left: 34px;
+    padding-top: 18px;
+}
+
+.header-block__button img {
+    width: 26px;
+    height: 36px;
+    margin-top: 16px;
+    margin-left: 25px;
+}
+
+
+.section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hint-wrapper{
+    width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 170px;
+}
+
+.hint {
+    width: 318px;
+}
+
+.hint-title {
+    font-family: 'Conv_DMSerifDisplay-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    margin-bottom: 17px;
+}
+
+.hint-text {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin-bottom: 68px;
+    width: 318px;
+}
+
+.hint-description {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    width: 95px;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #4D5053;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.hint-description::after {
+    content: url(../img/hint-arrow.svg);
+    width: 20px;
+    height: 14px;
+    position: absolute;
+    left: 100px;
+    top: 2px;
+}
+
+.phone-img {
+    border-radius: 0px 326px 0px 123px;
+}
+
+.phone-block{
+    width: 530px;
+    padding-top: 40px;
+
+}
+
+.phone-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone-block__title{
+    font-family: 'Conv_DMSerifDisplay-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    margin-bottom: 42px;
+}
+
+.phone-block__text{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin-bottom: 30px;
+}
+
+.phone-place{
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.phone-place__img{
+    width: 93px;
+    height: 93px;
+}
+
+.phone-place__number {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+.phone-place__text {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+.phone-block .header-block__button{
+    width: 265px;
+}
+
+
+.reviews{
+    width: 1200px;
+    height: 675px;
+    background: #F4F0EC;
+    border-radius: 70px;
+    margin-top: 140px;
+}
+
+.reviews-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.reviews-card {
+    background: #FFFFFF;
+    border-radius: 30px;
+    width: 355px;
+    height: 285px;
+}
+
+.reviews-title{
+    padding-top: 105px;
+    margin: 0 auto 50px;
+    text-align: center;
+    width: 480px;
+    font-family: 'Conv_DMSerifDisplay-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+
+.person-description{
+    width: 240px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-bottom: 25px;
+}
+
+.person-name{
+    font-family: 'Conv_DMSerifDisplay-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+
+.person-city {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+.person-text{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    width: 275px;
+    margin-left: 35px;
+}
+
+
+.company-wrapper {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 170px auto;
+}
+
+.projects-title{
+    font-family: 'Conv_DMSerifDisplay-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+
+.projects-text {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    width: 790px;
+    margin: 20px auto 70px;
+}
+.projects-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    flex-wrap: wrap;
+
+}
+
+.projects-card{
+    width: 590px;
+    height: 755px;
+    display: block;
+    margin-bottom: 60px;
+}
+
+.projects-img {
+    border-radius: 0px 80px 0px 0px;
+}
+
+.projects-name{
+    font-family: 'Conv_DMSerifDisplay-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    margin-top: 24px;
+}
+
+.projects-style {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+.projects-block{
+    display: flex;
+    justify-content: space-between;
+    width: 590px;
+}
+
+.projects-button {
+    padding-top: 15px;
+}
+
+.dignities{
+    background: #F4F0EC;
+    border-radius: 0px;
+    width: 1440px;
+    height: 475px;
+    margin: 80px auto 130px;
+}
+
+.dignities-wrapper {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+.dignities-item{
+    width: 288px;
+}
+
+.dignities-count{
+    font-family: 'Conv_DMSerifDisplay-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 128px;
+    text-align: center;
+    letter-spacing: 1.7px;
+    color: #CDA274;
+}
+
+.dignities-text {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+.dignities-line {
+    background: #CDA274;
+    width: 1px;
+    height: 195px;
+}
+
+.section.blog .projects-text{
+    width: 590px;
+}
+
+.blog-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blog-card {
+    border: 1px solid #E7E7E7;
+    border-radius: 62px;
+    width: 385px;
+    height: 515px;
+    margin-bottom: 40px;
+}
+
+.blog-card__img{
+    margin: 0 auto;
+    display: block;
+    padding-top: 20px;
+}
+
+.blog-card__title{
+    font-family: 'Conv_DMSerifDisplay-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+    color: #292F36;
+    margin-left: 21px;
+    margin-top: 15px;
+    width: 335px;
+    margin-bottom: 20px;
+}
+
+
+.blog-data{
+    display: flex;
+    justify-content: space-between;
+    width: 335px;
+    padding-left: 21px;
+}
+
+.blog-data__time{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    padding-top: 20px;
+}
+
+.blog-data .projects-button {
+    width: 52px;
+    height: 52px;
+}
+
+.connect{
+    background: #292F36;
+    border-radius: 70px;
+    height: 415px;
+}
+
+.connect-title{
+    font-family: 'Conv_DMSerifDisplay-Regular';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+    padding-top: 110px;
+    padding-bottom: 5px;
+}
+
+.connect-text {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.connect-button {
+    display: block;
+    background: #CDA274;
+    border: 2px solid #CDA274;
+    box-shadow: 1px 0px 18px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    width: 240px;
+    height: 71px;
+    margin: 0 auto;
+}
+
+.connect-button p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.22px;
+    color: #FFFFFF;
+    padding-top: 20px;
+    position: relative;
+    padding-left: 35px;
+}
+
+.connect-button p::after {
+    content: url(../img/connect-arrow.svg);
+    width: 25px;
+    height: 36px;
+    position: absolute;
+    left: 185px;
+    top: 15px;
+}
+
+.footer {
+    max-width: 1440px;
+    margin: 130px auto 0;
+}
+
+.footer-line{
+    background: #E5E5E5;
+    width: 1440px;
+    height: 1px;
+}
+
+.footer-link-wrapper{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    height: 460px;
+    margin: 0 auto;
+}
+
+.copyright-place{
+    height: 105px;
+}
+
+.copyright-place p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    padding-top: 35px;
+}
+
+.yelow-text{
+    color: #CDA274;
+}
+
+.media-column{
+    width: 326px;
+}
+
+.media-column__text{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.media-wrapper {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.link-column {
+    display: flex;
+    justify-content: space-between;
+    width: 790px;
+}
+
+.column{
+    max-width: 325px;
+}
+
+.column a,
+.column:nth-child(3) li{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+.column li {
+    margin-bottom: 30px;
+}
+
+.link-column__title{
+    font-family: 'Conv_DMSerifDisplay-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    padding-bottom: 22px;
+}
